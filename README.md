@@ -1,5 +1,5 @@
 # mycode
-Learing to track my code
+Learing to track my code.  This is a new paradigm for me.
 ## Getting Started
 
 I'll let you know once I actaully do something.
