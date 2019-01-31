@@ -1,1 +1,9 @@
+Lab 28
 student@beachhead:~/mycode$ ansible-playbook -i inv/prod/nethosts precheck/precheck01.yml
+
+Lab 29
+student@beachhead:~/mycode$ ansible-playbook -i inv/prod/nethosts roledev/precheck2role01.yml
+
+These don't work!!!
+ansible-playbook -i inv/prod/nethosts roledev/precheck2role02.yml
+ansible-playbook -i inv/prod/nethosts roledev/precheck2role02.yml -e switchver='5.00'
