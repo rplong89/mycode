@@ -7,3 +7,6 @@ student@beachhead:~/mycode$ ansible-playbook -i inv/prod/nethosts roledev/preche
 These don't work!!!
 ansible-playbook -i inv/prod/nethosts roledev/precheck2role02.yml
 ansible-playbook -i inv/prod/nethosts roledev/precheck2role02.yml -e switchver='5.00'
+
+ansible-playbook -i inv/prod/nethosts roledev/precheck2role02b.yml
+ansible-playbook -i inv/prod/nethosts roledev/precheck2role02b.yml -e switchver='5.00'
