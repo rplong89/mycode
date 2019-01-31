@@ -1,6 +1,6 @@
 ---
 - name: Playbook with Precheck Role
-  hosts: eos
+  hosts: ~^arista
 
   tasks:
   - name: Precheck block
